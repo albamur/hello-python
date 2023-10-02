@@ -41,6 +41,7 @@ print(name)
 print(age)
 
 # ¿Forzamos el tipo?
+# Python es de tipado débil, aunque especifiquemos el tipo de dato este se puede sobrescribir
 address: str = "Mi dirección"
 address = True
 address = 5
