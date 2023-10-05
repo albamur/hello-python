@@ -6,7 +6,7 @@ print(3 - 4)    # Resta
 print(3 * 4)    # Multiplicación
 print(3 / 4)    # División
 print(10 % 3)   # Resto
-print(10 // 3)  # Divisón aproximada: hace la division y si sale float aproxima a un entero
+print(10 // 3)  # División aproximada: hace la division y si sale float aproxima a un entero
 print(2 ** 3)   # Elevado
 print(2 ** 3 + 3 - 7 / 1 // 4)
 
@@ -35,8 +35,8 @@ print(3 != 4)
 # Operaciones con cadenas de texto
 print("Hola" > "Python")
 print("Hola" < "Python")
-print("aaaa" >= "abaa")  # Ordenación alfabética por ASCII
-print(len("aaaa") >= len("abaa"))  # Cuenta caracteres
+print("aaaa" >= "aba")  # Ordenación alfabética por ASCII
+print(len("aaaa") >= len("aba"))  # Cuenta caracteres
 print("Hola" <= "Python")
 print("Hola" == "Hola")
 print("Hola" != "Python")

@@ -13,4 +13,4 @@ user = user_name + " " + user_last_name
 
 email = name.lower().replace(" ",".")
 
-print(f"Bienvedino/a a la intranet, tu usuario será: {user} tu email será: {email}@gmail.com")
+print(f"Bienvenido/a a la intranet, tu usuario será: {user} tu email será: {email}@gmail.com")
