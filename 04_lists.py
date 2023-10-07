@@ -68,8 +68,33 @@ print(my_pop_element)
 print(my_list)
 
 del my_list[2]
+print(my_list)
 
 #  Constantes: en Python no existen por su tipado dinámico
 # Para dar a entender que una variable se quiere tratar como una constante se puede declarar con mayúsculas
 
 CONST_NAME = ""
+
+# Operaciones con listas
+
+my_new_list = my_list.copy()
+
+my_list.clear()
+print(my_list)
+print(my_new_list)
+
+my_new_list.reverse()
+print(my_new_list)
+
+my_new_list.sort()
+print(my_new_list)
+
+# Sublistas
+
+print(my_new_list[1:3])
+
+# Cambio de tipo
+
+my_list = "Hola Python"
+print(my_list)
+print(type(my_list))
