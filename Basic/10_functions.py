@@ -43,7 +43,7 @@ def print_name(name, surname):
     print(f"{name} {surname}")
 
 
-print_name(surname="Moure", name="Brais")
+print_name(surname="Moure", name="Alba")
 
 # Función con parámetros de entrada/argumentos por defecto
 
@@ -52,8 +52,8 @@ def print_name_with_default(name, surname, alias="Sin alias"):
     print(f"{name} {surname} {alias}")
 
 
-print_name_with_default("Brais", "Moure")
-print_name_with_default("Brais", "Moure", "MoureDev")
+print_name_with_default("Alba", "Moure")
+print_name_with_default("Alba", "Moure", "MoureDev")
 
 # Función con parámetros de entrada/argumentos arbitrarios
 

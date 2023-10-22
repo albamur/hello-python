@@ -8,7 +8,7 @@ my_other_set = {}
 print(type(my_set))
 print(type(my_other_set))  # Inicialmente es un diccionario
 
-my_other_set = {"Brais", "Moure", 35}
+my_other_set = {"Alba", "Moure", 35}
 print(type(my_other_set))
 
 print(len(my_other_set))
@@ -41,7 +41,7 @@ del my_other_set
 
 # Transformación
 
-my_set = {"Brais", "Moure", 35}
+my_set = {"Alba", "Moure", 35}
 my_list = list(my_set)
 print(my_list)
 print(my_list[0])
