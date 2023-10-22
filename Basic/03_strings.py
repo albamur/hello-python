@@ -65,3 +65,6 @@ print(language.startswith("Py"))    # Comprueba si la cadena empieza por "Py"
 print(language.replace("y","."))    # Remplaza la y por un .
 print(language.find("y"))    # Devuelve la posición de lo encontrado
 print("Py" == "py")  # No es lo mismo
+
+# ---------------------------------- CONVERSIÓN DE TIPOS ---------------------------------- 
+# str()

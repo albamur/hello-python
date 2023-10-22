@@ -1,5 +1,5 @@
-### Variables ###
-
+# ---------------------------------- VARIABLES ---------------------------------- 
+# Las variables se utilizan para almacenar datos, cada variable tiene un nombre y almacena un valor.
 # Python NO sigue la nomenclatura CamelCase
 # Python SI sigue la nomenclatura snake_case (todo en minúscula y guiones bajos)
 
@@ -9,19 +9,20 @@ print(my_string_variable)
 my_int_variable = 5
 print(my_int_variable)
 
-my_int_to_str_variable = str(my_int_variable)
-print(my_int_to_str_variable)
-print(type(my_int_to_str_variable))
+# my_int_to_str_variable = str(my_int_variable)
+# print(my_int_to_str_variable)
+# print(type(my_int_to_str_variable))
 
 my_bool_variable = False
 print(my_bool_variable)
+
 
 # Concatenación de variables en un print
 print(my_string_variable, my_int_to_str_variable, my_bool_variable)
 print("Este es el valor de:", my_bool_variable)
 
 # Algunas funciones del sistema
-print(len(my_string_variable))
+# print(len(my_string_variable))
 
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Alba", "Muñoz", 'albamur', 35
@@ -47,3 +48,11 @@ address = True
 address = 5
 address = 1.2
 print(type(address))
+
+# ---------------------------------- CONVERSIÓN DE TIPOS ---------------------------------- 
+# str()
+# int()
+# float()
+
+# tuple()
+# list()
