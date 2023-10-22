@@ -1,4 +1,4 @@
-### Strings ###
+# ---------------------------------- STRINGS ---------------------------------- 
 
 my_string = "Mi String"
 my_other_string = 'Mi otro String'
@@ -16,14 +16,6 @@ print(my_tab_string)
 my_scape_string = "\\tEste es un String \\n escapado"
 print(my_scape_string)
 
-
-# Formateo
-
-name, surname, age = "Alba", "Muñoz", 22
-print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))
-print("Mi nombre es %s %s y mi edad es %d" % (name, surname, age))
-print("Mi nombre es " + name + " " + surname + " y mi edad es " + str(age))
-print(f"Mi nombre es {name} {surname} y mi edad es {age}")
 
 # Desempaquetado de caracteres
 
@@ -52,6 +44,26 @@ print(language_slice)
 reversed_language = language[::-1]
 print(reversed_language)
 
+
+# Funciones del sistema
+
+print("Cadena") # Muestra en pantalla un valor (texto o valores).
+len() # Cuenta el número de caracteres de una cadena de entrada y devolver su valor.
+replace() # Permite sustituir caracteres dentro de una cadena.
+str(78) # Devuelve la representación de cadena de un número.
+ord() # Muestra el valor ASCII de una cadena de un carácter determinado.
+input() # Entrada de datos por parte de un usuario a través de la consola.
+chr(97) # Devuelve la cadena correspondiente a un número entero en relación con el código Unicode (por ejemplo, chr(97) devuelve la cadena “a”.
+
+
+# Formateo
+
+name, surname, age = "Alba", "Muñoz", 22
+print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))
+print("Mi nombre es %s %s y mi edad es %d" % (name, surname, age))
+print("Mi nombre es " + name + " " + surname + " y mi edad es " + str(age))
+print(f"Mi nombre es {name} {surname} y mi edad es {age}")
+
 # Funciones del lenguaje
 
 print(language.capitalize())    # Pone primera letra en mayúscula
@@ -66,5 +78,17 @@ print(language.replace("y","."))    # Remplaza la y por un .
 print(language.find("y"))    # Devuelve la posición de lo encontrado
 print("Py" == "py")  # No es lo mismo
 
-# ---------------------------------- CONVERSIÓN DE TIPOS ---------------------------------- 
-# str()
+print(language.capitalize())        # Pone primera letra en mayúscula
+print(language.casefold())          # Devuelve el texto en minúsculas de manera mas agresiva pues haya algunos caracteres que lower no contempla
+print(language.center("20", "-"))   # Alinea la cadena en el centro, utilizando un carácter específico como carácter de relleno.
+print(language.count("t"))          # Cuenta cuantas "t" hay en la cadena de texto
+print(language.encode())            # Codifica la cadena utilizando la codificación especificada. Por defecto se utilizará UTF-8.
+print(language.endswith("."))       # Comprueba si la cadena termina con (.):
+print(language.expandtabs())        # NO SE USA NUNCA: Reemplaza '\t' con espacios en blanco hasta la siguiente tabulación. 
+print(language.find("y"))           # Devuelve la posición de lo encontrado
+print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))  # Formatea los valores especificados y los inserta dentro del marcador de posición de la cadena.
+print(language.format_map())  
+
+
+
+
