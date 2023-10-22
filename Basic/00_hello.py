@@ -1,3 +1,5 @@
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> HELLO WORLD Y TIPOS DE DATOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
 # ---------------------------------- COMENTARIOS ---------------------------------- 
 #Los comentarios se crean utilizando el símbolo de hashtag # o """ si es de varias líneas.
 
@@ -25,6 +27,11 @@ print("Hola Python")
 # Las cadenas de texto también pueden ir entre comillas simples ''
 print('Hola Python')
 
+# ---------------------------------- FUNCIÓN INPUT() ---------------------------------- 
+name = input('¿Cuál es tu nombre? ')
+age = input('¿Cuántos años tienes? ')
+print(name)
+print(age)
 
 # ---------------------------------- FUNCIÓN TYPE() ---------------------------------- 
 # La función print() se utiliza para consultar el tipo de dato

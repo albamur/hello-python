@@ -1,4 +1,4 @@
-# ---------------------------------- VARIABLES ---------------------------------- 
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> VARIABLES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
 # Las variables se utilizan para almacenar datos, cada variable tiene un nombre y almacena un valor.
 
 # ---------------------------------- NOMBRES ---------------------------------- 
@@ -16,35 +16,33 @@
 
 # Declarar una variable entera
 edad = 30
+print(edad)
 
 # Declarar una variable decimal
 altura = 1.75
+print(altura)
 
 # Declarar una variable de cadena (string) con "",'', y en mayúsculas
 nombre = "Juan"
 nombre2 = 'Juan'
 NOMBRE = "Gómez"
+print(nombre)
+print(nombre2)
+print(NOMBRE)
 
 # Declarar una variable booleana
 es_estudiante = True
-
-
-# ---------------------------------- CONCATENACIÓN DE VARIABLES ---------------------------------- 
-print(edad, altura, nombre, NOMBRE, es_estudiante)
-print("Este es el valor de:", es_estudiante)
+print(es_estudiante)
 
 
 # ---------------------------------- ASIGNACIÓN MÚLTIPLE ---------------------------------- 
 # ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Alba", "Muñoz", 'albamur', 35
+
+
+# ---------------------------------- CONCATENACIÓN ---------------------------------- 
 print("Me llamo:", name, surname, ". Mi edad es:", age, ". Y mi alias es:", alias)
 
-
-# ---------------------------------- FUNCIÓN INPUT() ---------------------------------- 
-name = input('¿Cuál es tu nombre? ')
-age = input('¿Cuántos años tienes? ')
-print(name)
-print(age)
 
 # ---------------------------------- FORZAR EL TIPO ---------------------------------- 
 # Python es de tipado débil, aunque especifiquemos el tipo de dato este se puede sobrescribir
