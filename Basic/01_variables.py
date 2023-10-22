@@ -1,39 +1,53 @@
 # ---------------------------------- VARIABLES ---------------------------------- 
 # Las variables se utilizan para almacenar datos, cada variable tiene un nombre y almacena un valor.
-# Python NO sigue la nomenclatura CamelCase
-# Python SI sigue la nomenclatura snake_case (todo en minúscula y guiones bajos)
 
-my_string_variable = "My String variable"
-print(my_string_variable)
+# ---------------------------------- NOMBRES ---------------------------------- 
+# Reglas para nombrar variables en Python
+# · Deben comenzar con una letra o un guion bajo (_).
+# · Solo puede contener caracteres alfanuméricos y guiones bajos.
+# · Son sensibles a mayúsculas y minúsculas (Case sensitive).
+# · No pueden comenzar con un número.
+# · No se pueden utilizar palabras clave reservadas de Python como nombres de variables (if, else, for, while, def, class...).
 
-my_int_variable = 5
-print(my_int_variable)
+# Nomenclaturas
+# · camelCase 
+# . snake_case (todo en minúscula y guiones bajos)
+# · PascalCase
 
-# my_int_to_str_variable = str(my_int_variable)
-# print(my_int_to_str_variable)
-# print(type(my_int_to_str_variable))
+# Declarar una variable entera
+edad = 30
 
-my_bool_variable = False
-print(my_bool_variable)
+# Declarar una variable decimal
+altura = 1.75
+
+# Declarar una variable de cadena (string) con "",'', y en mayúsculas
+nombre = "Juan"
+nombre2 = 'Juan'
+NOMBRE = "Gómez"
+
+# Declarar una variable booleana
+es_estudiante = True
 
 
-# Concatenación de variables en un print
-print(my_string_variable, my_int_to_str_variable, my_bool_variable)
-print("Este es el valor de:", my_bool_variable)
+# ---------------------------------- CONCATENACIÓN DE VARIABLES ---------------------------------- 
+print(edad, altura, nombre, NOMBRE, es_estudiante)
+print("Este es el valor de:", es_estudiante)
 
-# Algunas funciones del sistema
-# print(len(my_string_variable))
 
-# Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
+# ---------------------------------- ASIGNACIÓN MÚLTIPLE ---------------------------------- 
+# ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Alba", "Muñoz", 'albamur', 35
-print("Me llamo:", name, surname, ". Mi edad es:",
-      age, ". Y mi alias es:", alias)
+print("Me llamo:", name, surname, ". Mi edad es:", age, ". Y mi alias es:", alias)
 
-# Inputs
+
+# ---------------------------------- FUNCIÓN INPUT() ---------------------------------- 
 name = input('¿Cuál es tu nombre? ')
 age = input('¿Cuántos años tienes? ')
 print(name)
 print(age)
+
+# ---------------------------------- FORZAR EL TIPO ---------------------------------- 
+# Python es de tipado débil, aunque especifiquemos el tipo de dato este se puede sobrescribir
 
 # Cambiamos su tipo
 name = 35
@@ -41,18 +55,16 @@ age = "Alba"
 print(name)
 print(age)
 
-# ¿Forzamos el tipo?
-# Python es de tipado débil, aunque especifiquemos el tipo de dato este se puede sobrescribir
-address: str = "Mi dirección"
+address: str = "Mi dirección" # Aunque se indique el tipo de variable sigue siendo modificables
 address = True
 address = 5
 address = 1.2
 print(type(address))
 
-# ---------------------------------- CONVERSIÓN DE TIPOS ---------------------------------- 
-# str()
-# int()
-# float()
 
-# tuple()
-# list()
+# ---------------------------------- VARIABLES GLOBALES ---------------------------------- 
+# Son aquellas que se declaran fuera de cualquier función o bloque de código y pueden ser 
+# accedidas y modificadas desde cualquier parte del programa, incluyendo funciones y 
+# bloques de código dentro de funciones.
+global x
+x = 10

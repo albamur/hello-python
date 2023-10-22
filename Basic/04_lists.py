@@ -98,3 +98,6 @@ print(my_new_list[1:3])
 my_list = "Hola Python"
 print(my_list)
 print(type(my_list))
+
+
+# REPASAR LA ASIGNACIÓN MULTIPLE

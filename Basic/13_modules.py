@@ -1,10 +1,13 @@
 
 ### Modules ###
 
-from math import pi as PI_VALUE
-import math
 from my_module import sumValue, printValue
 import my_module
+
+from math import pi as PI_VALUE
+import math
+
+import random
 
 my_module.sumValue(5, 3, 1)
 my_module.printValue("Hola Python!")
@@ -17,5 +20,6 @@ printValue("Hola python")
 print(math.pi)
 print(math.pow(2, 8))
 
+print(random.randrange(10, 20))
 
 print(PI_VALUE)

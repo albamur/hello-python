@@ -87,8 +87,20 @@ print(language.endswith("."))       # Comprueba si la cadena termina con (.):
 print(language.expandtabs())        # NO SE USA NUNCA: Reemplaza '\t' con espacios en blanco hasta la siguiente tabulación. 
 print(language.find("y"))           # Devuelve la posición de lo encontrado
 print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age))  # Formatea los valores especificados y los inserta dentro del marcador de posición de la cadena.
-print(language.format_map())  
 
+# format_map() : Similar al método format(), pero en lugar de pasar argumentos como pares de valores clave, toma un diccionario como su argumento y utiliza las claves del diccionario para reemplazar las llaves en la cadena
+# Definir un diccionario con valores para formatear
+valores = {
+    'nombre': 'Juan',
+    'edad': 30,
+    'ciudad': 'Ciudad XYZ'
+}
+
+# Cadena con marcadores de posición
+cadena = "Hola, mi nombre es {nombre}, tengo {edad} años y vivo en {ciudad}."
+
+# Imprimir la cadena formateada
+print(cadena.format_map(valores))
 
 
 

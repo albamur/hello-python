@@ -34,3 +34,16 @@ print(type(5)) # Tipo 'int'
 print(type(1.5)) # Tipo 'float'
 print(type(3 + 2j)) # Tipo 'complex'
 print(type(True)) # Tipo 'boolean'
+
+
+# ---------------------------------- CASTING: CONVERSIÓN DE TIPOS  ---------------------------------- 
+# Cast» o casting en python, es la operación de convertir un tipo de dato a otro tipo de dato distinto. 
+
+# int(valor)
+# float(valor) Importante: En el tipo de datos float, el separador es un « . » si se utiliza una coma, dará error
+# str(valor)
+# bool(valor)
+# list(secuencia)
+# tuple(secuencia)
+# set(secuencia)
+# dict(lista_de_pares_clave_valor)
