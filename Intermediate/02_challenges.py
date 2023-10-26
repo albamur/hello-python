@@ -104,3 +104,20 @@ Reto #3: ¿ES UN NÚMERO PRIMO?
 Escribe un programa que se encargue de comprobar si un número es o no primo.
 Hecho esto, imprime los números primos entre 1 y 100.
 """
+def es_primo(num):
+    for n in range(2, num):
+        if num % n == 0:
+            print("No es primo", n, "es divisor")
+            return False
+    print("Es primo")
+    return True
+
+
+"""
+Reto #4: ÁREA DE UN POLÍGONO
+Crea una única función (importante que sólo sea una) que sea capaz
+de calcular y retornar el área de un polígono.
+- La función recibirá por parámetro sólo UN polígono a la vez.
+- Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
+- Imprime el cálculo del área de un polígono de cada tipo.
+"""
